@@ -1,4 +1,4 @@
-public class valid_anagram {
+public class Valid_anagram {
 
 // given two string s and t, return true if t is an anagram of s, and false otherwise.
 // if every character present in S is also present in t then they are anagram of each other.
@@ -8,7 +8,7 @@ public class valid_anagram {
       public static void main(String[] args) {
 
           // Create an instance of the class that contains isAnagram()
-          valid_anagram solution = new valid_anagram();
+          Valid_anagram solution = new Valid_anagram();
 
           // Test cases
           System.out.println(solution.isAnagram("anagram", "nagaram")); // true
